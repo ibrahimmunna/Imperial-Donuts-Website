@@ -1,0 +1,206 @@
+        * {
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+        
+        header {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .nav {
+            display: inline-block;
+        }
+        
+        a {
+            text-decoration: none;
+            padding: 5px;
+            color: rgb(207, 19, 107);
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        nav ul {
+            text-align: right;
+            padding: 25px;
+            width: 90%;
+            margin: 10px auto;
+        }
+        
+        .banner {
+            border: 2px solid rgb(207, 19, 107);
+            width: 90%;
+            height: 90%;
+            margin: auto auto;
+            text-align: center;
+            background-image: url(./Images/donuts1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        h1 {
+            font-size: 150px;
+            padding: 25px;
+            margin-top: 110px;
+            color: cornsilk;
+        }
+        
+        h2 {
+            color: rgb(172, 115, 143);
+            font-size: 40px;
+            margin-top: 210px;
+            font-style: italic;
+        }
+        
+        h3 {
+            color: rgb(207, 19, 107);
+            font-size: 35px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .about-container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .about {
+            height: 90%;
+            width: 40%;
+            font-size: 18px;
+            color: rgb(207, 19, 107);
+            text-align: justify;
+            margin-left: 6%;
+        }
+        
+        #image {
+            height: 285px;
+            width: 330px;
+        }
+        
+        .about-image {
+            width: 40%;
+            margin-top: 2%;
+            margin-left: 6%;
+        }
+        
+        .one {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .two {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .donut {
+            height: 100vh;
+            width: 100vw;
+            margin-left: 90px;
+        }
+        
+        .donunt-one {
+            display: flex;
+            flex-direction: row;
+            padding: 0 10px;
+        }
+        
+        .donunt-two {
+            display: flex;
+            flex-direction: row;
+            padding: 0 10px;
+        }
+        
+        .donunt-three {
+            display: flex;
+            flex-direction: row;
+            padding: 0 10px;
+        }
+        
+        #images {
+            height: 260px;
+            width: 360px;
+            margin: 10px 25px;
+            border-radius: 1%;
+        }
+        
+        #images:hover {
+            opacity: 0.8;
+        }
+        
+        .stores {
+            height: 30vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .store-one {
+            width: 30%;
+            text-align: center;
+            color: rgb(207, 19, 107);
+            margin: 20px auto;
+        }
+        
+        .store-two {
+            width: 30%;
+            text-align: center;
+            color: rgb(207, 19, 107);
+            margin: 20px auto;
+        }
+        
+        .store-three {
+            width: 30%;
+            text-align: center;
+            color: rgb(207, 19, 107);
+            margin: 20px auto;
+        }
+        
+        h4 {
+            font-size: 35px;
+            color: rgb(207, 19, 107);
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .contact {
+            height: 20vh;
+            width: 100vw;
+            background-color: purple;
+        }
+        
+        div.contact p {
+            color: white;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .footer-heading {
+            color: white;
+        }
+        
+        .socialmedia {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .socaimedia {
+            margin: 0 3px;
+        }
+        
+        .copyright {
+            text-align: center;
+        }
